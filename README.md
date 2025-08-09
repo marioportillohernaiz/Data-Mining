@@ -8,7 +8,7 @@
 <p>First part: To standardize the dataset, I implemented a function in q2 that adjusted each feature to have zero mean and unit variance. The formula applied was:</p>
 <p><strong>x′ = (x−μ) / σ</strong></p>
 <p>Where `𝜇` is the feature mean and `σ` is the feature standard deviation. This was performed across all features to ensure that no single dimension disproportionately influenced the model during training.</p>
-<img width="500" height="600" alt="q2-1" src="https://github.com/user-attachments/assets/3e0afb97-af50-4faf-95e2-712aaff0c77f" />
+<img width="1000" height="600" alt="q2-1" src="https://github.com/user-attachments/assets/3e0afb97-af50-4faf-95e2-712aaff0c77f" />
 <p>Second part: To visualize the impact of standardization, I selected representative samples from the dataset and plotted them before and after the transformation using matplotlib. Additionally, feature distribution histograms were plotted to clearly demonstrate the compression of feature variance and the centering of the mean at zero. This confirmed that the data preprocessing step was correctly implemented.</p>
 <img width="3568" height="1466" alt="q2-2" src="https://github.com/user-attachments/assets/7cc87937-4e60-447d-86b7-270af8c821ab" />
 
@@ -17,7 +17,7 @@
 <img width="4764" height="1899" alt="q3-1" src="https://github.com/user-attachments/assets/f1919641-ea99-4c11-a179-03e3b8d5dd04" />
 
 <p>Second Part: Optimal hyperparameters were determined through a manual search strategy. I systematically varied parameters such as the hidden layer size, learning rate (alpha), and solver type while observing classification accuracy. The final chosen parameters were stored in the optimal_hyperparam variable in coc131_cw.py for reproducibility.</p>
-<img width="2140" height="1963" alt="q3-2" src="https://github.com/user-attachments/assets/c1183b44-03da-4938-a118-5a588ee9b920" />
+<img width="2000" height="1963" alt="q3-2" src="https://github.com/user-attachments/assets/c1183b44-03da-4938-a118-5a588ee9b920" />
 
 <p>Third Part: Performance across hyperparameter configurations was summarized using accuracy vs. parameter value plots. These visualizations allowed for clear identification of trends and optimal configurations, aiding in the final model selection.</p>
 
